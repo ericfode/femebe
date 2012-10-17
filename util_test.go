@@ -3,6 +3,8 @@ package femebe
 import (
 	"bytes"
 	"io"
+	"net"
+	"strings"
 )
 
 type closableBuffer struct {
